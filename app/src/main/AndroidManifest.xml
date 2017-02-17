@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sandy.blog.androidaart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".OtherActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".launch.standard.AActivity"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".launch.standard.BActivity"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".launch.standard.CActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.sandy.blog.standard" />
+
+        <activity
+            android:name=".launch.standard.DActivity"
+            android:launchMode="singleTask" />
+
+        <activity android:name=".start.FirstActivity" />
+
+        <activity android:name=".start.SecondActivity">
+        </activity>
+
+        <activity android:name=".start.ThirdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.art" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>
