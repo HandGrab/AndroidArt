@@ -27,4 +27,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View的滑动" />
+
+
+    <Button
+        android:id="@+id/slow_move_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View的缓慢移动" />
 </LinearLayout>

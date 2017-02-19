@@ -5,33 +5,29 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/scroll_by_btn"
+        android:id="@+id/scroller_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ScrollBy移动"
+        android:text="Scroller缓慢滑动"
         android:textAllCaps="false" />
 
     <Button
-        android:id="@+id/scroll_to_btn"
+        android:id="@+id/animator_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ScrollTo移动"
-        android:textAllCaps="false" />
+        android:text="动画实现缓慢滑动" />
 
     <Button
-        android:id="@+id/animation_btn"
+        android:id="@+id/delay_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="动画移动" />
-
+        android:text="使用延时" />
 
 
     <com.sandy.blog.vieweventdemo.ScrollerImageView
-        android:id="@+id/scroll_iv"
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
         android:src="@mipmap/ic_launcher" />
-
 </LinearLayout>

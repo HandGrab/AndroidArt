@@ -18,7 +18,9 @@
 
         <activity android:name=".TouchActivity" />
 
-        <activity android:name=".ScrollerActivity" />
+        <activity android:name=".MoveActivity" />
+
+        <activity android:name=".ScrollerActivity"/>
     </application>
 
 </manifest>

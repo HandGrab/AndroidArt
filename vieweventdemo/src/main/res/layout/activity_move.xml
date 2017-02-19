@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/scroll_by_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollBy移动"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/scroll_to_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollTo移动"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/tween_animation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补间动画移动" />
+
+    <Button
+        android:id="@+id/attribute_animation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画移动" />
+
+    <Button
+        android:id="@+id/change_layout_params_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="改变布局参数" />
+
+
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/scroll_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>

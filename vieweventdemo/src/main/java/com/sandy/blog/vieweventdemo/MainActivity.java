@@ -17,11 +17,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         touchBtn = (Button) findViewById(R.id.touch_view);
         scrollBtn = (Button) findViewById(R.id.scroll_view);
         touchBtn.setOnClickListener(this);
         scrollBtn.setOnClickListener(this);
+
+        findViewById(R.id.slow_move_view).setOnClickListener(this);
     }
 
     @Override
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 skipToActivity(TouchActivity.class);
                 break;
             case R.id.scroll_view:
+                skipToActivity(MoveActivity.class);
+                break;
+            case R.id.slow_move_view:
                 skipToActivity(ScrollerActivity.class);
                 break;
         }
