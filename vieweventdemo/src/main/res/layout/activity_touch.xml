@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
 
-    <com.sandy.blog.vieweventdemo.TouchView
+    <com.sandy.blog.vieweventdemo.up.TouchView
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:background="@color/colorPrimary"

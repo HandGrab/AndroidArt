@@ -16,11 +16,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TouchActivity" />
+        <activity android:name=".up.TouchActivity" />
 
-        <activity android:name=".MoveActivity" />
+        <activity android:name=".up.MoveActivity" />
 
-        <activity android:name=".ScrollerActivity"/>
+        <activity android:name=".up.ScrollerActivity" />
+
+        <activity android:name=".down.DispatchActivity" />
     </application>
 
 </manifest>

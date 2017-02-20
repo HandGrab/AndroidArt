@@ -1,8 +1,10 @@
-package com.sandy.blog.vieweventdemo;
+package com.sandy.blog.vieweventdemo.up;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.sandy.blog.vieweventdemo.R;
 
 /**
  * Created by Sandy Luo on 2017/2/18.

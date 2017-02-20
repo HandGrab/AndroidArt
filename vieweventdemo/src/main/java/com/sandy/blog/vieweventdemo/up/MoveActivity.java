@@ -1,4 +1,4 @@
-package com.sandy.blog.vieweventdemo;
+package com.sandy.blog.vieweventdemo.up;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.sandy.blog.vieweventdemo.R;
 
 /**
  * Created by Sandy Luo on 2017/2/18.

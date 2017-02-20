@@ -34,4 +34,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View的缓慢移动" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/dispatch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件分发" />
 </LinearLayout>
