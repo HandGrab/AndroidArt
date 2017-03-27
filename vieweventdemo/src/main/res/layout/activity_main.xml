@@ -41,4 +41,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="事件分发" />
+
+    <Button
+        android:id="@+id/dispatch_demo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件传递" />
 </LinearLayout>

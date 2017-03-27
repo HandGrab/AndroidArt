@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.sandy.blog.vieweventdemo.dispatch.DemoActivity;
 import com.sandy.blog.vieweventdemo.down.DispatchActivity;
 import com.sandy.blog.vieweventdemo.up.MoveActivity;
 import com.sandy.blog.vieweventdemo.up.ScrollerActivity;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button touchBtn;
     private Button scrollBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.slow_move_view).setOnClickListener(this);
         findViewById(R.id.dispatch_view).setOnClickListener(this);
+        findViewById(R.id.dispatch_demo_view).setOnClickListener(this);
     }
 
     @Override
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.dispatch_view:
                 skipToActivity(DispatchActivity.class);
+                break;
+            case R.id.dispatch_demo_view:
+                skipToActivity(DemoActivity.class);
                 break;
         }
     }
