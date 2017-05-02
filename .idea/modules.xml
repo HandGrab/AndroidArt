@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidAart.iml" filepath="$PROJECT_DIR$/AndroidAart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidArt.iml" filepath="$PROJECT_DIR$/AndroidArt.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/daggerdemo/daggerdemo.iml" filepath="$PROJECT_DIR$/daggerdemo/daggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/emaildemo/emaildemo.iml" filepath="$PROJECT_DIR$/emaildemo/emaildemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/location/location.iml" filepath="$PROJECT_DIR$/location/location.iml" />
       <module fileurl="file://$PROJECT_DIR$/vieweventdemo/vieweventdemo.iml" filepath="$PROJECT_DIR$/vieweventdemo/vieweventdemo.iml" />
     </modules>
   </component>
