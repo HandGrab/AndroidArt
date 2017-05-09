@@ -1,1 +1,1 @@
-include ':app', ':emaildemo', ':vieweventdemo', ':daggerdemo', ':maskdemo', ':socketdemo'
+include ':app', ':emaildemo', ':vieweventdemo', ':daggerdemo'

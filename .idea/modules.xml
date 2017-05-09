@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/daggerdemo/daggerdemo.iml" filepath="$PROJECT_DIR$/daggerdemo/daggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/emaildemo/emaildemo.iml" filepath="$PROJECT_DIR$/emaildemo/emaildemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maskdemo/maskdemo.iml" filepath="$PROJECT_DIR$/maskdemo/maskdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/socketdemo/socketdemo.iml" filepath="$PROJECT_DIR$/socketdemo/socketdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/vieweventdemo/vieweventdemo.iml" filepath="$PROJECT_DIR$/vieweventdemo/vieweventdemo.iml" />
     </modules>
   </component>
